@@ -298,7 +298,6 @@ with st.container(border=True):
 
         submit = st.form_submit_button("Send Message")
 
-        # ✅ submit must be checked inside form block
         if submit:
             if email and name and message:
                 subject = f"Portfolio Contact from {name}"
@@ -319,3 +318,4 @@ with st.container(border=True):
 
             else:
                 st.error("Please fill all fields.")
+
