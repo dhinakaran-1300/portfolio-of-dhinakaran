@@ -5,7 +5,7 @@ import urllib.parse
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
-    page_title="Dhinakaran S | Data Analyst", page_icon="📊", layout="wide"
+    page_title="Dhinakaran S | Data Analyst", layout="wide"
 )
 
 # ---------------- SIDEBAR ----------------
@@ -318,4 +318,5 @@ with st.container(border=True):
 
             else:
                 st.error("Please fill all fields.")
+
 
